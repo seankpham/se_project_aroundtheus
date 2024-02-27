@@ -7,3 +7,7 @@ Based on a Figma UI, created a responsive layout that closely represents the des
 ![Desktop View](./images/Project-3-Desktop-View.png)
 ![Tablet View](./images/Project-3-Tablet-View.png)
 ![Mobile View](./images/Project-3-Mobile-View.png)
+
+## Project Link
+
+![Project](https://github.com/tripleten-com/se_project_aroundtheus)
