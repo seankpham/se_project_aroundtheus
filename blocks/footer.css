@@ -1,8 +1,12 @@
 .footer {
   font-size: 18px;
   font-weight: 400;
-  color: #848484;
+  color: rgb(84, 84, 84);
   margin: 67px auto 60px;
+}
+
+.footer__copyright {
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {

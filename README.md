@@ -11,3 +11,7 @@ Based on a Figma UI, created a responsive layout that closely represents the des
 ## Project Link
 
 ![Project](https://github.com/tripleten-com/se_project_aroundtheus)
+
+## Project Video
+
+Will work on video after this submission
