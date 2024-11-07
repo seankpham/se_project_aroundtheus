@@ -1,17 +1,19 @@
 .footer {
-  font-size: 18px;
-  font-weight: 400;
   color: rgb(84, 84, 84);
   margin: 67px auto 60px;
+  line-height: 21.78px;
 }
 
 .footer__copyright {
   margin: 0;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 480px) {
   .footer {
     font-size: 14px;
     margin: 48px 19px 36px;
+    line-height: 16.94px;
   }
 }
