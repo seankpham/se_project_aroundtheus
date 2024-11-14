@@ -10,8 +10,10 @@ Based on a Figma UI, created a responsive layout that closely represents the des
 
 ## Project Link
 
-![Project](https://github.com/tripleten-com/se_project_aroundtheus)
+![Project] https://seankpham.github.io/se_project_aroundtheus/
 
 ## Project Video
 
-Will work on video after this submission
+Volume Warning!! There is a lot of background noise that I couldn't figure out where it was coming from. Please turn down the volume before watching
+
+https://drive.google.com/file/d/1dB41uBQsYghRkmd2zcasm30OHRUOcqNr/view?usp=sharing
