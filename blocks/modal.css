@@ -1,0 +1,127 @@
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  padding: 0 19px;
+  margin: auto;
+}
+
+.modal_opened {
+  display: flex;
+}
+
+.modal__container {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  width: 430px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__close {
+  background-image: url(../images/Close\ Icon.svg);
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+  cursor: pointer;
+}
+
+.modal__heading {
+  color: #000;
+  margin: 0 0 54px;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 36px 36px 0;
+}
+
+.modal__button {
+  grid-area: save;
+  margin-bottom: 36px;
+  padding: 0;
+  width: minmax(max-content, 358px);
+  height: 50px;
+  border: none;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+}
+
+.modal__form {
+  margin: 0 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__form__title {
+  padding: 0;
+  margin-bottom: 30px;
+  max-width: 358px;
+  max-height: 27px;
+  border: solid 1px #fff;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal__form__description {
+  padding: 0;
+  margin-bottom: 48px;
+  border: solid 1px #fff;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal__close:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .modal__container {
+    height: 322px;
+    width: 282px;
+  }
+
+  .modal__heading {
+    padding: 0 22px;
+    margin: 25px 0 76px;
+    font-size: 18px;
+  }
+
+  .modal__form {
+    margin: 0 22px;
+  }
+
+  .modal__button {
+  }
+
+  .modal__form__title {
+    margin-bottom: 30px;
+  }
+
+  .modal__form__description {
+    margin-bottom: 46px;
+  }
+
+  .modal__close {
+    bottom: calc(100% + 22px);
+    left: 85%;
+  }
+}
