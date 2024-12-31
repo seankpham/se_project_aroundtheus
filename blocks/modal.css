@@ -67,7 +67,7 @@
   flex-direction: column;
 }
 
-.modal__form__title {
+.modal__title {
   padding: 0;
   margin-bottom: 30px;
   max-width: 358px;
@@ -76,7 +76,7 @@
   border-bottom-color: rgba(0, 0, 0, 0.2);
 }
 
-.modal__form__description {
+.modal__description {
   padding: 0;
   margin-bottom: 48px;
   border: solid 1px #fff;
@@ -109,11 +109,11 @@
     margin: 0 22px;
   }
 
-  .modal__form__title {
+  .modal__title {
     margin-bottom: 30px;
   }
 
-  .modal__form__description {
+  .modal__description {
     margin-bottom: 46px;
   }
 
