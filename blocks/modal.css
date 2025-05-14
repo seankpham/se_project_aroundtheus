@@ -6,12 +6,12 @@
   bottom: 0;
   right: 0;
   z-index: 999;
-  display: flex;
+  display: none;
   padding: 0 19px;
   margin: auto;
 }
 
-.modal_opened {
+.modal__opened {
   display: flex;
 }
 
