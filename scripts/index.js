@@ -94,3 +94,12 @@ initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListEl.append(cardElement);
 });
+
+fetch("/api/data")
+  .then((response) => {
+    console.log("Response status:", response.status);
+    return response.text(); // Get as text first to see what you actually received
+  })
+  .then((data) => {
+    console.log("Actual response:", data); // This will show you the HTML
+  });
